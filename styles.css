@@ -1,3 +1,14 @@
+* {
+    margin: 0px;
+}
+
 .banner {
     background: url(./assets/imagens/banner.png);
+    background-position: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.banner-content {
+    text-align: center;
 }
