@@ -1,14 +1,25 @@
 * {
-    margin: 0px;
+  margin: 0px;
+  font-family: 'Raleway';
 }
 
 .banner {
-    background: url(./assets/imagens/banner.png);
-    background-position: 100%;
-    background-size: 100%;
-    background-repeat: no-repeat;
+  background: url(./assets/imagens/banner.png);
+  background-position: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .banner-content {
-    text-align: center;
+  padding-top: 83px;
+  text-align: center;
 }
+
+.logo img {
+  width: 248px;
+  height: 214px;
+  left: 131px;
+  top: 27px;
+}
+
+
