@@ -22,7 +22,7 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  box-shadow: inset 0 0 1em #33a8db, 0 0 1em rgb(255, 255, 255);
+  border: rgba(51, 168, 219, 1) 0.063rem solid;
 }
 
 .banner-content {
@@ -42,8 +42,8 @@ body {
   width: 15rem;
   top: 1.688rem;
   -webkit-box-shadow: 0px 0px 1em rgb(0, 0, 0);
-  background: -moz-radial-gradient()
-    (180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%);
+    box-shadow: inset 0 1rem 1em rgb(89, 87, 79);
+  border-radius: 15rem;
 }
 
 .banner-content h1 {
