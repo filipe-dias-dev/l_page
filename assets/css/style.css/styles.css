@@ -149,7 +149,7 @@ button:hover {
 #transform-world {
   display: flex;
   background-position: right center;
-  background: url(./assets/imagens/woman-code.png);
+  background: url(/assets/imagens/woman-code.png);
   background-size: cover;
   border: solid 1px #33a8db;
   background-attachment: fixed;
