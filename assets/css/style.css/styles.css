@@ -22,6 +22,7 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  box-shadow: inset 0 0 1em #33a8db, 0 0 1em rgb(255, 255, 255);
 }
 
 .banner-content {
