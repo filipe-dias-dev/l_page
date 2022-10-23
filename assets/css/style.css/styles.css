@@ -60,11 +60,19 @@ body {
   margin: 1rem 0rem;
 }
 
+@media only screen and (min-width: 768px) {
+  .banner-content p {
+    max-width: 30rem;
+    display: flex;
+  }
+}
+
 .banner-content p {
   display: flex;
-
   color: white;
   margin-bottom: 1.875rem;
+  width: 100%;
+  margin: 1rem;
 }
 
 .banner button {
@@ -120,7 +128,7 @@ button:hover {
   color: #ffffff;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .modules-list {
     min-width: 100%;
   }
@@ -133,19 +141,17 @@ button:hover {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  padding: 1rem 0rem;
+  padding: 1rem 1rem;
   gap: 0.625rem;
 }
 
 .modules-list span {
   color: #31a8dd;
   padding-right: 0.313rem;
-  padding-left: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
   .module {
-    background-color: #1472b7;
     display: flex;
     max-width: 50%;
   }
